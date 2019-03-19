@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "emidus",
+    "packageName": "emidus.app",
+    "packageFolder": "emidus/app",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "zh-tw",
+      "en",
+      "fr"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "jwtSecretKey": "NzFhNDAzZGQzMTZkYzU2MDNmYTRmMWU0OTk5NmRjMmQ4NTAwYWVmOWE1N2UwNzk2YTU4ZGFjODRmYTAzMWYyMzczOTNkZmE5N2IxNmFkMTQzYWRkZjU5N2Q1NjZhZWUwZTE3OWNhMDhmODk5MDllMDRmY2U4MDBhOTA0ZjRkNzE=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "LBrandon",
+  "repository-name": "emidus-com-app"
+}
